@@ -1,4 +1,4 @@
-const clientId = '';
+const clientId = 'aa3b5d15ab4d44a9814c35c901232033';
 
 const redirectURI = 'http://localhost:3000/';
 
@@ -54,7 +54,7 @@ const Spotify = {
   },
 
   savePlaylist(name, trackUris) {
-    if (!name || !trackUris.lenght) {
+    if (!name || !trackUris.length) {
       return;
     }
     const accessToken = Spotify.getAccessToken();
