@@ -1,6 +1,6 @@
-const clientId = 'aa3b5d15ab4d44a9814c35c901232033';
+const clientId = '';
 
-const redirectURI = 'http://localhost:3000/';
+const redirectURI = 'http://cedoplaylistgen.surge.sh';
 
 let accessToken;
 
